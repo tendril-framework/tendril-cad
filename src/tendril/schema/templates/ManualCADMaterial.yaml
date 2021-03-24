@@ -1,0 +1,11 @@
+---
+schema:
+  base: "http://tendril.chintal.in/schema/"
+  name: {{ stage.schema_name }}
+  version: {{ stage.schema_version }}
+
+type: simple
+name: {{ stage.name }}
+desc: {{ stage.description }}
+status: {{ stage.status }}
+
